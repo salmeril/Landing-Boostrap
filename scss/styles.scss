@@ -1,0 +1,112 @@
+// Importa Bootstrap desde node_modules
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Tu código SCSS personalizado aquí
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body{
+    background-color: #F5F5F5;
+}
+
+.container-fluid{
+    background-color: #17456C;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar-toggler{
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-item{
+    color: #fff;
+    font-weight: 500;
+    font-size: larger;
+    margin-right: 5vh;
+    
+}
+
+.navbar-brand{
+    max-width: 50%;
+}
+
+.navbar{
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: 500;
+    margin-right: 15%;
+}
+
+.navbar-nav{
+    margin-right: 15%;
+}
+
+.logo{
+    max-width: 15%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(/src/img/IMG_8451.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    
+    justify-content: center;
+}
+
+.h1hero{
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+.lead{
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+
+.video-container{
+    align-items: center;
+    
+    border-radius: 40px; /* Ajusta este valor según la cantidad de redondeo que desees */
+    overflow: hidden; /* Para ocultar las partes del video que estén fuera del contenedor redondeado */
+    
+}
+
+
+.video{
+    width: 100%;
+    height: 100vh;
+    background-color: #17456C;
+    justify-content: center;
+    align-items: center;
+}
