@@ -6,11 +6,16 @@
   <title>Landing Page</title>
   <!-- Bootstrap CSS compilado -->
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/sec1.css">
+  <link rel="stylesheet" href="/css/sec2.css">
+  <link rel="stylesheet" href="/css/sec3.css">
+  <link rel="stylesheet" href="/css/sec4.css">
+  <link rel="stylesheet" href="/css/navbar.css">
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid contNav">
       <a class="navbar-brand" href="/src/icon/MAGNOLIA HARVEST CO-79.png"><img class="logo" src="/src/icon/MAGNOLIA HARVEST CO-79.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,7 +45,7 @@
   <!-- Hero Section -->
   
   <header class="jumbotron text-center">
-    <section class="hero">
+    <section class="hero hero1">
         <div class="text">
         <h1 class="h1hero">HUEVOS PASTORILES</h1>
         <p class="lead">Calidad que Nace del Cuidado Animal</p>
@@ -51,10 +56,10 @@
   </header>
 
 
-  <section class="container my-5 video">
-    <h2 class="text-center">Nuestro Video</h2>
+  <section class="container video">
+    <h2 class="text-center"></h2>
     <div class="video-container text-center ratio ratio-16x9">
-        <video id="videoPlayer" width="600" controls autoplay>
+        <video id="videoPlayer" width="740" controls autoplay>
             <source src="/src/video/IMG_1738.MOV" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
@@ -62,31 +67,36 @@
 </section>
 
   <!-- Features Section -->
-  <section class="container my-5">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Característica 1</h5>
-            <p class="card-text">Descripción de la característica 1.</p>
-          </div>
+  <section class="container-fluid d-flex my-5 cardsec3">
+      <div class="contenedor-rectangulos">
+        <div class="rectangulo">
+            <div class="circulo"></div>
+            <h4 class="cardTitulo">Calidad Superior</h4>
+            <p class="textoCard">Los Huevos Pastoriles destacan por su calidad excepcional, garantizada por un proceso de producción cuidadoso y ético. Cada huevo es seleccionado meticulosamente para asegurar su frescura y pureza.</p>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Característica 2</h5>
-            <p class="card-text">Descripción de la característica 2.</p>
-          </div>
+        <div class="rectangulo">
+            <div class="circulo"></div>
+            <h4 class="cardTitulo">Producción Consciente</h4>
+            <p class="textoCard">Criados en ambientes naturales y saludables, nuestras gallinas reciben cuidado y atención dedicados, reflejando nuestro compromiso con prácticas de producción sostenibles y el bienestar animal.</p>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Característica 3</h5>
-            <p class="card-text">Descripción de la característica 3.</p>
-          </div>
+        <div class="rectangulo">
+            <div class="circulo"></div>
+            <h4 class="cardTitulo">Experiencia auténtica</h4>
+            <p class="textoCard">Con los Huevos Pastoriles, disfrutarás de una experiencia culinaria auténtica y satisfactoria. Nuestros huevos se distinguen por su limpieza impecable, integridad y sabor incomparable, proporcionando una opción superior a los huevos industriales.</p>
         </div>
+        
+    </div>
+  
+    
+  </section>
+
+  <section class="histori">
+    <div class="container-fluid historiadiv">
+      <div class="container">
+        <h2 class="historiaTitulo">Sobre Nosotros</h2>
+        <p class="historiaTexto">Somos una familia comprometida con hacer las cosas a conciencia. Entendemos que no todos los huevos son iguales; hay una gran diferencia entre un huevo pastoril, un huevo de campo, uno de gallina libre de jaula y mucho menos uno industrial. Valoramos la calidad y el origen de lo que consumimos, optando siempre por productos que reflejen nuestros principios éticos y de bienestar animal. Para nosotros, cada elección cuenta, y elegir conscientemente es parte de nuestro estilo de vida.
+          <br>
+          Lucas siempre soñó con una granja desde su infancia. Tras la universidad, se formó en permacultura, manejo holístico y ganadería regenerativa. Inspirado por Joel Salatin, viajó por granjas orgánicas y se perfeccionó en Chile y Suecia. Con Milu, iniciaron su proyecto criando gallinas en Capilla del Monte. Tras 2 años y 500 ponedoras, fundaron Magnolia Harvest Co. en 2023. Ahora, en Escobar, con 2500 gallinas, buscan ser líderes en huevos pastoriles en Buenos Aires.</p>
       </div>
     </div>
   </section>
@@ -110,6 +120,7 @@
       <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
   </section>
+  
 
   <!-- Footer -->
   <footer class="bg-light text-center py-4">
@@ -117,11 +128,11 @@
   </footer>
 
   <!-- jQuery -->
-  <script src="js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7V3eQgp4e6j3uw1flbfq6P/yy4gq/iR3pv3" crossorigin="anonymous"></script>
   <!-- Popper.js -->
-  <script src="js/popper.min.js"></script>
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
   <!-- Bootstrap JS -->
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/js/main.js"></script>
 </body>
 </html>

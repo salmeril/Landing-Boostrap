@@ -1,10 +1,4 @@
 // Importa Bootstrap desde node_modules
-
-$enable-smooth-scroll:true;
-$enable-deprecation-messages: false;
-$enable-shadows: true;
-$enable-dark-mode: false;
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Custom.scss
@@ -40,24 +34,47 @@ $enable-dark-mode: false;
 
 // 8. Add additional custom code here
 
-// Tu código SCSS personalizado aquí
-
-*{
+.contNav{
+    background-color: #17456C;
+    justify-content: center;
     padding: 0;
-    margin: 0;
+}
+
+.navbar-toggler{
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-item{
+    color: #fff;
+    font-weight: 500;
+    font-size: larger;
+    margin-right: 5vh;
     
 }
 
-
-body{
-    background-color: #F5F5F5;
+.navbar-brand{
+    max-width: 50%;
 }
 
+.navbar{
+    background-color: #17456C;
+    padding: 0;
+    flex-wrap: nowrap;
+}
 
+.nav-link{
+    color: #fff;
+    font-weight: 500;
+    margin-right: 15%;
+}
 
+.navbar-nav{
+    margin-right: 15%;
+}
 
-
-
-
-
+.logo{
+    max-width: 15%;
+    margin-left: 10%;
+}
 

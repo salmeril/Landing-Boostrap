@@ -1,10 +1,4 @@
 // Importa Bootstrap desde node_modules
-
-$enable-smooth-scroll:true;
-$enable-deprecation-messages: false;
-$enable-shadows: true;
-$enable-dark-mode: false;
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Custom.scss
@@ -38,26 +32,68 @@ $enable-dark-mode: false;
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-// 8. Add additional custom code here
 
-// Tu código SCSS personalizado aquí
-
-*{
-    padding: 0;
-    margin: 0;
+.cardsec3{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(/src/img/8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     
 }
 
 
-body{
-    background-color: #F5F5F5;
+.contenedor-rectangulos {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
+.rectangulo {
+    
+    width: 100%;
+    max-width: 375px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    margin: 10vh 1rem;
+    box-sizing: border-box;
+    background-color: rgb(23, 69, 108, 0.5);
+}
 
+.circulo {
+    background-image: url(/src/icon/checkcard.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
 
+.textoCard{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
 
-
-
-
-
-
+.cardTitulo{
+    color: #fff;
+    margin-top: 10%;
+}
