@@ -21240,10 +21240,15 @@ progress {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: none;
+  background-color: #F5F5F5;
 }
 
 .video {
+  background-color: #F5F5F5;
+}
+
+.video {
+  background-color: #F5F5F5;
   width: 100%;
   height: auto;
   -webkit-box-pack: center;

@@ -21242,6 +21242,7 @@ progress {
 
 .contenedor-rectangulos {
   position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21263,6 +21264,9 @@ progress {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: rgba(23, 69, 108, 0.5);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .circulo {

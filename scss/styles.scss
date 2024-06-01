@@ -1,9 +1,14 @@
 // Importa Bootstrap desde node_modules
-
+:root {
+    --bs-body-bg: #F5F5F5;
+}
+$primary: #F5F5F5;
+$bs-body-bg: F5F5F5;
 $enable-smooth-scroll:true;
 $enable-deprecation-messages: false;
 $enable-shadows: true;
 $enable-dark-mode: false;
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -49,8 +54,9 @@ $enable-dark-mode: false;
 }
 
 
-body{
-    background-color: #F5F5F5;
+body {
+
+    background-color: #F5F5F5 !important;
 }
 
 

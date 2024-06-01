@@ -45,13 +45,17 @@
     border-radius: 40px; /* Ajusta este valor según la cantidad de redondeo que desees */
     overflow: hidden; /* Para ocultar las partes del video que estén fuera del contenedor redondeado */
     display: flex;
-    background-color: none;
+    background-color: #F5F5F5;
 
+}
+
+.video{
+    background-color: #F5F5F5;
 }
 
 
 .video{
-    
+    background-color: #F5F5F5;
     width: 100%;
     height: auto;
     justify-content: center;
