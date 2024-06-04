@@ -10,20 +10,27 @@
   <link rel="stylesheet" href="/css/sec2.css">
   <link rel="stylesheet" href="/css/sec3.css">
   <link rel="stylesheet" href="/css/sec4.css">
+  <link rel="stylesheet" href="/css/sec5.css">
+  <link rel="stylesheet" href="/css/sec6.css">
   <link rel="stylesheet" href="/css/navbar.css">
 </head>
 <body>
+
+
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid contNav">
-      <a class="navbar-brand" href="/src/icon/MAGNOLIA HARVEST CO-79.png"><img class="logo" src="/src/icon/MAGNOLIA HARVEST CO-79.png" alt="Logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+  <nav class="navbar navbar-expand-lg navbar-padre">
+    <div class="container-fluid contenedorNav">
+      <a class="navbar-brand logaso" href="#"><img class="imgLogo" src="/src/icon/MAGNOLIA HARVEST CO-79.png" alt="Logo"></a>
+      <button class="navbar-toggler collapsed" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Productos</a>
@@ -32,23 +39,32 @@
             <a class="nav-link" href="#">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Contactos</a>
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
+        <div class="redes">
+          <a href=""><img src="/src/icon/instagram.png" alt="" class="imgRedes"></a>
+          <a href=""><img src="/src/icon/facebook.png" alt="" class="imgRedes"></a>
+          <a href=""><img src="/src/icon/twiter.png" alt="" class="imgRedes"></a>
+        </div>
       </div>
-      <div class="redes">
-        hol
-      </div>
+  
+ 
+    
     </div>
   </nav>
+
+
+  
 
   <!-- Hero Section -->
   
   <header class="jumbotron text-center">
+
     <section class="hero hero1">
         <div class="text">
         <h1 class="h1hero">HUEVOS PASTORILES</h1>
-        <p class="lead">Calidad que Nace del Cuidado Animal</p>
+        <p class="subtitulo">Calidad que Nace del Cuidado Animal</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Más información</a>
         </div>
         
@@ -56,7 +72,7 @@
   </header>
 
 
-  <section class="container video">
+  <section class="container-fluid video">
     <h2 class="text-center"></h2>
     <div class="video-container text-center ratio ratio-16x9">
         <video id="videoPlayer" width="740" controls autoplay>
@@ -67,7 +83,7 @@
 </section>
 
   <!-- Features Section -->
-  <section class="container-fluid d-flex my-5  cardsec3">
+  <section class="container-fluid d-flex cardsec3">
       <div class="contenedor-rectangulos">
         <div class="rectangulo">
             <div class="circulo"></div>
@@ -92,7 +108,7 @@
 
   <section class="histori">
     <div class="container-fluid historiadiv">
-      <div class="container">
+      <div class="container ">
         <h2 class="historiaTitulo">Sobre Nosotros</h2>
         <p class="historiaTexto">Somos una familia comprometida con hacer las cosas a conciencia. Entendemos que no todos los huevos son iguales; hay una gran diferencia entre un huevo pastoril, un huevo de campo, uno de gallina libre de jaula y mucho menos uno industrial. Valoramos la calidad y el origen de lo que consumimos, optando siempre por productos que reflejen nuestros principios éticos y de bienestar animal. Para nosotros, cada elección cuenta, y elegir conscientemente es parte de nuestro estilo de vida.
           <br>
@@ -105,17 +121,41 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="/src/img/editImg/IMG_0084.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="/src/img/editImg/IMG_0091.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
+              <img src="/src/img/editImg/IMG_0127.png" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+              <img src="/src/img/editImg/IMG_0144.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/src/img/editImg/IMG_8395.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/src/img/editImg/IMG_8417.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/src/img/editImg/IMG_8477.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/src/img/editImg/IMG_9537.png" class="d-block w-100" alt="...">
+            </div>
+
+
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -130,24 +170,60 @@
     </div>
   </section>
 
+
+
+
+  <section class="container-fluid d-flex sec5">
+    <div class="contenedor-rectangulos2">
+      <div class="rectangulo2">
+          <div class="circulo2"></div>
+          <h4 class="cardTitulo2">¿Qué son los huevos pastoriles?</h4>
+          <p class="textoCard2">Los huevos pastoriles son aquellos que provienen de gallinas criadas en sistemas de producción extensivos, donde tienen acceso a espacios abiertos y pueden llevar una vida más natural</p>
+      </div>
+      <div class="rectangulo2">
+          <div class="circulo2"></div>
+          <h4 class="cardTitulo2">¿Cómo se diferencian los huevos pastoriles de otros huevos?</h4>
+          <p class="textoCard2">se diferencian principalmente en el estilo de crianza de las gallinas. En contraste con los huevos de gallinas enjauladas o en sistemas industriales, las gallinas pastoriles tienen más libertad para moverse y expresar comportamientos naturales</p>
+      </div>
+      <div class="rectangulo2">
+          <div class="circulo2"></div>
+          <h4 class="cardTitulo2">¿Qué beneficios ofrecen los huevos pastoriles?</h4>
+          <p class="textoCard2">Los huevos pastoriles suelen tener una mayor calidad nutricional debido a la dieta más variada que reciben las gallinas. Además, su producción se asocia con prácticas más respetuosas hacia el bienestar animal y el medio ambiente</p>
+      </div>
+      
+  </div>
+
+  
+</section>
+
+
+
+
   <!-- Contact Section -->
-  <section class="container my-5">
-    <h2 class="text-center">Contacto</h2>
-    <form>
-      <div class="form-group">
-        <label for="name">Nombre</label>
-        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
-      </div>
-      <div class="form-group">
-        <label for="email">Correo electrónico</label>
-        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
-      </div>
-      <div class="form-group">
-        <label for="message">Mensaje</label>
-        <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+  <section class="sec6">
+    <div class="formu">   
+      <h2 class="text-center">Contacto</h2>
+      <form class="formulario">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+      
+    </div>
+    <div class="datos">
+
+    </div>
+
   </section>
   
 

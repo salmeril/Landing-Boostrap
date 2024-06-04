@@ -41,11 +41,12 @@
 
 .video-container{
     align-items: center;
-    margin-top: 5vh;
+    /* margin-top: 5vh;
     border-radius: 40px; /* Ajusta este valor según la cantidad de redondeo que desees */
     overflow: hidden; /* Para ocultar las partes del video que estén fuera del contenedor redondeado */
     display: flex;
     background-color: #F5F5F5;
+    padding-bottom: 1vh;
 
 }
 
@@ -60,5 +61,30 @@
     height: auto;
     justify-content: center;
     align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
     
+}
+
+
+// No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }`
+@include media-breakpoint-down(sm) { 
+
+ }
+@include media-breakpoint-down(md) { 
+
+ }
+@include media-breakpoint-down(lg) { 
+
+ }
+@include media-breakpoint-down(xl) { 
+
+ }
+@include media-breakpoint-down(xxl) { 
+
+ }
+
+// Example: Style from medium breakpoint and down
+@include media-breakpoint-down(md) {
+  
 }

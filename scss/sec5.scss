@@ -1,0 +1,426 @@
+// Importa Bootstrap desde node_modules
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+
+.sec5{
+    width: 100%;
+    height: 110vh;
+    margin-top: 2vh;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    
+    
+}
+
+
+.contenedor-rectangulos2 {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.rectangulo2 {
+    
+    width: 100%;
+    max-width: 375px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    margin: 10vh 1rem;
+    box-sizing: border-box;
+    background-color: rgb(23, 69, 108, 0.5);
+    justify-content: center;
+}
+
+.circulo2 {
+    background-image: url(/src/icon/checkcard.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+.textoCard2{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.cardTitulo2{
+    color: #fff;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+// No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }`
+@include media-breakpoint-down(sm) { 
+    .contenedor-rectangulos2 {
+        height: 100vh;
+        position:absolute; /* Asegura que el contenedor es relativo para posicionar la imagen */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 0 !important;
+        
+        
+    }
+
+    .rectangulo2 {
+    
+        width: 100%;
+        max-width: 375px;
+        height: 270px;
+        position: relative;
+        text-align: center;
+        margin: 2vh;
+        box-sizing: border-box;
+        background-color: #8F8D5F;
+        justify-content: center;
+        border-radius: 2vh;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .textoCard2{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        font-size: smaller;
+    }
+    
+    .cardTitulo2{
+        color: #fff;
+        margin-top: 12%;
+    }
+
+    .circulo2 {
+        background-image: url(/src/icon/help-circle-outline.png);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -3vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+    
+
+ }
+@include media-breakpoint-down(md) { 
+
+
+
+ }
+@include media-breakpoint-down(lg) { 
+
+    .contenedor-rectangulos2 {
+        position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
+    .rectangulo2 {
+    
+        width: 100%;
+        max-width: 375px;
+        height: 250px;
+        position: relative;
+        text-align: center;
+        margin: 2vh;
+        box-sizing: border-box;
+        background-color: #8F8D5F;
+        justify-content: center;
+        border-radius: 2vh;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .textoCard2{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        font-size: smaller;
+    }
+    
+    .cardTitulo2{
+        color: #fff;
+        margin-top: 12%;
+    }
+
+    .circulo2 {
+        background-image: url(/src/icon/help-circle-outline.png);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -3vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+
+ }
+@include media-breakpoint-down(xl) { 
+
+    .contenedor-rectangulos2 {
+        position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
+    .rectangulo2 {
+    
+        width: 100%;
+        max-width: 375px;
+        height: 220px;
+        position: relative;
+        text-align: center;
+        margin: 2vh;
+        box-sizing: border-box;
+        background-color: #8F8D5F;
+        justify-content: center;
+        border-radius: 2vh;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .textoCard2{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        font-size: smaller;
+    }
+    
+    .cardTitulo2{
+        color: #fff;
+        margin-top: 12%;
+    }
+
+    .circulo2 {
+        background-image: url(/src/icon/help-circle-outline.png);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -3vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+
+ }
+@include media-breakpoint-down(xxl) { 
+    
+    .contenedor-rectangulos2 {
+        position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
+    .rectangulo2 {
+    
+        width: 100%;
+        max-width: 375px;
+        height: 270px;
+        position: relative;
+        text-align: center;
+        margin: 2vh;
+        box-sizing: border-box;
+        background-color: #8F8D5F;
+        justify-content: center;
+        border-radius: 2vh;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    .textoCard2{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vh;
+        font-size: medium;
+    }
+    
+    .cardTitulo2{
+        color: #fff;
+        margin-top: 10%;
+    }
+
+    .circulo2 {
+        background-image: url(/src/icon/help-circle-outline.png);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -3vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+
+ }
+
+
+ @include media-breakpoint-up(xxl) {     .contenedor-rectangulos2 {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.rectangulo2 {
+
+    width: 100%;
+    max-width: 375px;
+    height: 375px;
+    position: relative;
+    text-align: center;
+    
+    box-sizing: border-box;
+    background-color: #8F8D5F;
+    justify-content: center;
+    border-radius: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.textoCard2{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    font-size: large;
+}
+
+.cardTitulo2{
+    color: #fff;
+    margin-top: 10%;
+}
+
+.circulo2 {
+    background-image: url(/src/icon/help-circle-outline.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -3vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+} }
+
+
+ 

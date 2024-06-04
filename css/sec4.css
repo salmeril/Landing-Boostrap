@@ -21230,30 +21230,173 @@ progress {
     display: none !important;
   }
 }
-.historiadiv {
-  width: 100%;
-  height: 100vh;
-  background-color: #F5F5F5;
-  margin-top: 5vh;
+@media (max-width: 575.98px) {
+  .historiadiv {
+    width: 100%;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .historiaTitulo {
+    margin-top: 5vh;
+    color: black;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: x-large;
+  }
+  .historiaTexto {
+    color: black;
+    margin-top: 2vh;
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+  }
 }
-
-.historiaTitulo {
-  margin-top: 12vh;
-  color: black;
-  font-weight: 500;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  font-size: xx-large;
+@media (max-width: 767.98px) {
+  .historiadiv {
+    width: 100%;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .historiaTitulo {
+    margin-top: 5vh;
+    color: black;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: x-large;
+  }
+  .historiaTexto {
+    color: black;
+    margin-top: 2vh;
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+  }
 }
-
-.historiaTexto {
-  color: black;
-  margin-top: 10vh;
-  font-size: x-large;
-  font-weight: 400;
-  text-align: center;
-  margin-left: 20vh;
-  margin-right: 20vh;
+@media (max-width: 991.98px) {
+  .historiadiv {
+    width: 100%;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .historiaTitulo {
+    margin-top: 5vh;
+    color: black;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: x-large;
+  }
+  .historiaTexto {
+    color: black;
+    margin-top: 2vh;
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (max-width: 1199.98px) {
+  .historiadiv {
+    width: 100%;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .historiaTitulo {
+    margin-top: 5vh;
+    color: black;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: x-large;
+  }
+  .historiaTexto {
+    color: black;
+    margin-top: 2vh;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+@media (max-width: 1399.98px) {
+  .historiadiv {
+    width: 100%;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .historiaTitulo {
+    margin-top: 5vh;
+    color: black;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: x-large;
+  }
+  .historiaTexto {
+    color: black;
+    margin-top: 2vh;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
+}
+@media (min-width: 1400px) {
+  .historiadiv {
+    width: 100%;
+    background-image: url(/src/icon/1.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .historiaTitulo {
+    margin-top: 5vh;
+    color: black;
+    font-weight: 500;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: xz-large;
+  }
+  .historiaTexto {
+    color: black;
+    margin-top: 2vh;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5vh;
+  }
 }

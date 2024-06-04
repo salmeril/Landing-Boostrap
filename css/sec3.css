@@ -21238,6 +21238,8 @@ progress {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0;
+  margin-top: 1vh;
 }
 
 .contenedor-rectangulos {
@@ -21260,13 +21262,15 @@ progress {
   height: 300px;
   position: relative;
   text-align: center;
-  margin: 10vh 1rem;
+  margin: 4vh 1rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: rgba(23, 69, 108, 0.5);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .circulo {
@@ -21292,6 +21296,8 @@ progress {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-weight: bold;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .textoCard {
@@ -21308,4 +21314,145 @@ progress {
 .cardTitulo {
   color: #fff;
   margin-top: 10%;
+}
+
+@media (max-width: 767.98px) {
+  .contenedor-rectangulos {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rectangulo {
+    width: 100%;
+    max-width: 375px;
+    height: 220px;
+    position: relative;
+    text-align: center;
+    margin: 2vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(23, 69, 108, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .textoCard {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2vh;
+    font-size: smaller;
+  }
+  .cardTitulo {
+    color: #fff;
+    margin-top: 12%;
+  }
+  .circulo {
+    background-image: url(/src/icon/checkcard.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -3vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-weight: bold;
+  }
+}
+@media (max-width: 991.98px) {
+  .contenedor-rectangulos {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rectangulo {
+    width: 100%;
+    max-width: 375px;
+    height: 220px;
+    position: relative;
+    text-align: center;
+    margin: 2vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(23, 69, 108, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .textoCard {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2vh;
+    font-size: smaller;
+  }
+  .cardTitulo {
+    color: #fff;
+    margin-top: 12%;
+  }
+  .circulo {
+    background-image: url(/src/icon/checkcard.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -3vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-weight: bold;
+  }
 }
