@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/css/wp.css">
   <link rel="stylesheet" href="/css/carrousel.css">
   <link rel="stylesheet" href="/css/navbar.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -78,7 +79,7 @@
   </header>
 
 
-  <section class="container-fluid video">
+  <section data-aos="zoom-in-up"" class="container-fluid video">
     <h2 class="text-center"></h2>
     <div class="video-container text-center ratio ratio-16x9">
         <video id="videoPlayer" width="740" controls autoplay>
@@ -88,10 +89,10 @@
     </div>
 </section>
 
-  <!-- Features Section -->
-  <section class="container-fluid d-flex cardsec3">
-      <div class="contenedor-rectangulos">
-        <div class="rectangulo">
+  <!-- card check -->
+  <section  class="container-fluid d-flex cardsec3">
+      <div data-aos="zoom-in-up"class="contenedor-rectangulos">
+        <div class="rectangulo" data-aos="zoom-in">
             <div class="circulo"></div>
             <h4 class="cardTitulo">Calidad Superior</h4>
             <p class="textoCard">Los Huevos Pastoriles destacan por su calidad excepcional, garantizada por un proceso de producción cuidadoso y ético. Cada huevo es seleccionado meticulosamente para asegurar su frescura y pureza.</p>
@@ -113,8 +114,8 @@
   </section>
 
   <section class="histori">
-    <div class="container-fluid historiadiv">
-      <div class="container ">
+    <div class="container-fluid historiadiv" >
+      <div class="container "data-aos="zoom-in-up">
         <h2 class="historiaTitulo">Sobre Nosotros</h2>
         <p class="historiaTexto">Somos una familia comprometida con hacer las cosas a conciencia. Entendemos que no todos los huevos son iguales; hay una gran diferencia entre un huevo pastoril, un huevo de campo, uno de gallina libre de jaula y mucho menos uno industrial. Valoramos la calidad y el origen de lo que consumimos, optando siempre por productos que reflejen nuestros principios éticos y de bienestar animal. Para nosotros, cada elección cuenta, y elegir conscientemente es parte de nuestro estilo de vida.
           <br>
@@ -122,7 +123,7 @@
           Lucas siempre soñó con una granja desde su infancia. Tras la universidad, se formó en permacultura, manejo holístico y ganadería regenerativa. Inspirado por Joel Salatin, viajó por granjas orgánicas y se perfeccionó en Chile y Suecia. Con Milu, iniciaron su proyecto criando gallinas en Capilla del Monte. Tras 2 años y 500 ponedoras, fundaron Magnolia Harvest Co. en 2023. Ahora, en Escobar, con 2500 gallinas, buscan ser líderes en huevos pastoriles en Buenos Aires.</p>
       </div>
       <div class="carrucho">
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -180,18 +181,18 @@
 
 
   <section class="container-fluid d-flex sec5">
-    <div class="contenedor-rectangulos2">
-      <div class="rectangulo2">
+    <div class="contenedor-rectangulos2" >
+      <div class="rectangulo2" data-aos="zoom-in-up" >
           <div class="circulo2"></div>
           <h4 class="cardTitulo2">¿Qué son los huevos pastoriles?</h4>
           <p class="textoCard2">Los huevos pastoriles son aquellos que provienen de gallinas criadas en sistemas de producción extensivos, donde tienen acceso a espacios abiertos y pueden llevar una vida más natural</p>
       </div>
-      <div class="rectangulo2">
+      <div class="rectangulo2" data-aos="zoom-in-up">
           <div class="circulo2"></div>
           <h4 class="cardTitulo2">¿Cómo se diferencian los huevos pastoriles de otros huevos?</h4>
           <p class="textoCard2">se diferencian principalmente en el estilo de crianza de las gallinas. En contraste con los huevos de gallinas enjauladas o en sistemas industriales, las gallinas pastoriles tienen más libertad para moverse y expresar comportamientos naturales</p>
       </div>
-      <div class="rectangulo2">
+      <div class="rectangulo2" data-aos="zoom-in-up">
           <div class="circulo2"></div>
           <h4 class="cardTitulo2">¿Qué beneficios ofrecen los huevos pastoriles?</h4>
           <p class="textoCard2">Los huevos pastoriles suelen tener una mayor calidad nutricional debido a la dieta más variada que reciben las gallinas. Además, su producción se asocia con prácticas más respetuosas hacia el bienestar animal y el medio ambiente</p>
@@ -260,5 +261,9 @@
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/js/main.js"></script>
   <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

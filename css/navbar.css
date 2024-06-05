@@ -21258,6 +21258,7 @@ progress {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
+    width: 10vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -21434,6 +21435,7 @@ progress {
   }
   .navbar-padre {
     background-color: #17456C;
+    position: static !important;
     top: 0;
     left: 0;
     width: 100%;
@@ -21471,7 +21473,7 @@ progress {
   }
   .nav-link {
     font-size: 20px;
-    color: white;
+    color: white !important;
     text-align: center;
     margin-left: 4vh;
   }
@@ -21562,6 +21564,7 @@ progress {
     z-index: 1000;
     -webkit-transition: height 0.5s ease;
     transition: height 0.5s ease;
+    position: fixed;
   }
   .navbar-padre.expand {
     height: 100vh; /* Expande la barra de navegación a la altura completa de la pantalla */
@@ -21593,7 +21596,7 @@ progress {
   }
   .nav-link {
     font-size: 20px;
-    color: white;
+    color: white !important;
     text-align: center;
     margin-left: 4vh;
   }
@@ -21652,7 +21655,7 @@ progress {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    width: 15vh !important;
+    width: 12vh !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -21686,6 +21689,7 @@ progress {
     z-index: 1000;
     -webkit-transition: height 0.5s ease;
     transition: height 0.5s ease;
+    position: fixed !important;
   }
   .navbar-padre.expand {
     height: 100vh; /* Expande la barra de navegación a la altura completa de la pantalla */
@@ -21717,7 +21721,7 @@ progress {
   }
   .nav-link {
     font-size: 20px;
-    color: white;
+    color: white !important;
     text-align: center;
     margin-left: 4vh;
   }
@@ -21776,7 +21780,7 @@ progress {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    width: 15vh !important;
+    width: 12vh !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
