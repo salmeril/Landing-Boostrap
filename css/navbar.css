@@ -21265,6 +21265,7 @@ progress {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: 4vh;
   }
 }
 @media (max-width: 991.98px) {
@@ -21422,11 +21423,6 @@ progress {
     color: initial;
   }
 }
-@media (max-width: 991.98px) {
-  .nav-link {
-    margin-top: 0 !important;
-  }
-}
 @media (max-width: 1199.98px) {
   .logaso {
     -webkit-box-pack: start !important;
@@ -21540,9 +21536,11 @@ progress {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
+    margin-left: 4vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: 4vh;
   }
   .imgRedes {
     margin: 1vh;
@@ -21668,9 +21666,13 @@ progress {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 4vh;
   }
   .imgRedes {
     margin: 1vh;
+  }
+  .redes {
+    margin-right: 4vh;
   }
 }
 @media (min-width: 1400px) {
@@ -21793,8 +21795,12 @@ progress {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: 4vh;
   }
   .imgRedes {
     margin: 1vh;
+  }
+  .redes {
+    margin-right: 4vh;
   }
 }

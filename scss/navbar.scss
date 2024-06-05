@@ -70,6 +70,8 @@
         justify-content: center !important;
         width: 10vh;
         display: flex;
+        margin-left: 4vh;
+        
     }
 
  }
@@ -213,11 +215,7 @@
 
  }
 
- @include media-breakpoint-down(lg) { 
-    .nav-link{
-        margin-top: 0 !important;
-    }
-  }
+
 @include media-breakpoint-down(xl) { 
     .logaso {
         justify-content: start !important;
@@ -321,8 +319,9 @@
 
     .imgLogo {
         justify-content: center !important;
-        
+        margin-left: 4vh;
         display: flex;
+        margin-left: 4vh;
     }
 
     .imgRedes{
@@ -438,10 +437,15 @@
         justify-content: center !important;
         width: 12vh !important;
         display: flex;
+        margin-right: 4vh;
     }
 
     .imgRedes{
         margin: 1vh;
+    }
+
+    .redes{
+        margin-right: 4vh;
     }
  
 
@@ -554,10 +558,15 @@
         justify-content: center !important;
         width: 12vh !important;
         display: flex;
+        margin-left: 4vh;
     }
 
     .imgRedes{
         margin: 1vh;
+    }
+
+    .redes{
+        margin-right: 4vh;
     }
  
 

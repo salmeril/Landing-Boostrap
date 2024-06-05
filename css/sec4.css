@@ -21246,7 +21246,7 @@ progress {
 }
 
 .sobre-nosotros .content {
-  max-width: 600px;
+  max-width: 1020px;
 }
 
 .sobre-nosotros h1, .sobre-nosotros .h1 {
@@ -21257,4 +21257,10 @@ progress {
 .sobre-nosotros p {
   font-size: 1.15em;
   line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  .sobre-nosotros {
+    font-size: 1.3rem;
+  }
 }
