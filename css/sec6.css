@@ -21230,84 +21230,111 @@ progress {
     display: none !important;
   }
 }
-@media (max-width: 575.98px) {
-  .sec6 {
-    background-color: red;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/src/img/Rectangle\ 8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  form {
-    background-color: white;
-  }
+.sec6 {
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 5vh;
+  background-image: url(/src/img/Rectangle\ 8.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-@media (max-width: 767.98px) {
-  .sec6 {
-    background-color: red;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/src/img/Rectangle\ 8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .formu {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  form {
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 60vh;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
-    padding: 10vh;
-  }
+
+.contact-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 80%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin: auto;
 }
-@media (max-width: 991.98px) {
-  .sec6 {
-    background-color: red;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/src/img/Rectangle\ 8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  form {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+
+.contact-form, .contact-map {
+  padding: 20px;
+  border-radius: 10px;
 }
-@media (max-width: 1199.98px) {
-  .sec6 {
-    background-color: red;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/src/img/Rectangle\ 8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  form {
-    background-color: rgba(255, 255, 255, 0.5);
-  }
+
+.contact-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-@media (max-width: 1399.98px) {
-  .sec6 {
-    background-color: red;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/src/img/Rectangle\ 8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+.contact-map h2, .contact-map .h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+
+form h2, form .h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bontonsub {
+  width: 100%;
+  padding: 20px;
+  margin-top: 50px !important;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+botonsub:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-  form {
-    background-color: rgba(255, 255, 255, 0.5);
+  .sec6 {
+    height: 135vh;
   }
 }

@@ -31,100 +31,48 @@
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-
-.sec6{
-    height: 100vh;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 5vh;
-    background-image: url(/src/img/Rectangle\ 8.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 80%;
-    max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-items: start;
-    margin: auto;
-}
-
-.contact-form, .contact-map {
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.contact-form {
-    
-}
-
-.contact-map {
+.footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-}
-
-.contact-map h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.contact-map iframe {
-    width: 100%;
-    height: 450px;
-    border: none;
-}
-
-form h2 {
-    margin-top: 0;
-    text-align: center;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.bontonsub {
     width: 100%;
     padding: 20px;
-    margin-top: 50px !important;
-    border: none;
-    border-radius: 5px;
-    background-color: #28a745;
+    background-color: #17456C;
     color: white;
-    font-size: 16px;
-    cursor: pointer;
+    position: absolute;
+    margin-top: 15vh;
+
 }
 
-botonsub:hover {
-    background-color: #218838;
+.footer-logo img {
+    width: 200px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
 }
 
 @media (max-width: 768px) {
     .contact-container {
         grid-template-columns: 1fr;
     }
-
-    .sec6{
-        height: 135vh;
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-logo, .footer-info, .footer-social {
+        margin-bottom: 10px;
     }
 }

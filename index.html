@@ -12,9 +12,15 @@
   <link rel="stylesheet" href="/css/sec4.css">
   <link rel="stylesheet" href="/css/sec5.css">
   <link rel="stylesheet" href="/css/sec6.css">
+  <link rel="stylesheet" href="/css/fotter.css">
+  <link rel="stylesheet" href="/css/wp.css">
+  <link rel="stylesheet" href="/css/carrousel.css">
   <link rel="stylesheet" href="/css/navbar.css">
 </head>
 <body>
+
+
+
 
 
   <!-- Navbar -->
@@ -193,6 +199,9 @@
       
   </div>
 
+  <a href="https://api.whatsapp.com/send?phone=5491126229996" class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp icono"></i>
+  </a>
   
 </section>
 
@@ -200,37 +209,48 @@
 
 
   <!-- Contact Section -->
-  <section class="sec6">
-    <div class="formu">   
-      <h2 class="text-center">Contacto</h2>
-      <form class="formulario">
-        <div class="form-group">
-          <label for="name">Nombre</label>
-          <input type="text" class="form-control" id="name" placeholder="Tu nombre">
-        </div>
-        <div class="form-group">
-          <label for="email">Correo electrónico</label>
-          <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
-        </div>
-        <div class="form-group">
-          <label for="message">Mensaje</label>
-          <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
-      
-    </div>
-    <div class="datos">
-
-    </div>
-
-  </section>
+  <div class="sec6" id="sec6">
+    <div class="contact-container">
+      <div class="contact-form">
+          <form>
+              <h2>Dejanos tu consulta</h2>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
+              
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="message">Mensaje:</label>
+              <textarea id="message" name="message" required></textarea>
+              
+              <button class="botonsub btn btn-primary btn-lg" type="submit">Enviar</button>
+          </form>
+      </div>
+      <div class="contact-map">
+          <h2>Nuestra Ubicación</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52750.305959787336!2d-58.8282001!3d-34.276752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cda30bfb35b3a69%3A0xd27d0ffbcec82bb7!2sMagnolia%20Harvest%20Co.!5e0!3m2!1ses-419!2sar!4v1717541918161!5m2!1ses-419!2sar" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+  </div>
   
 
   <!-- Footer -->
-  <footer class="bg-light text-center py-4">
-    <p>&copy; 2024 Mi Sitio. Todos los derechos reservados.</p>
-  </footer>
+  <footer class="footer">
+    <div class="footer-logo">
+        <img src="/src/icon/MAGNOLIA HARVEST CO-76.png" alt="Logo">
+        <span>©</span>
+    </div>
+    <div class="footer-info">
+        <p>Dirección: Calle Falsa 123</p>
+        <p>Teléfono: 11-2622-9996</p>
+        <p>Email: contacto@example.com</p>
+    </div>
+    <div class="footer-social">
+        <a href="#"><img src="/src/icon/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="/src/icon/twiter.png" alt="Twitter"></a>
+        <a href="#"><img src="/src/icon/instagram.png" alt="Instagram"></a>
+    </div>
+</footer>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7V3eQgp4e6j3uw1flbfq6P/yy4gq/iR3pv3" crossorigin="anonymous"></script>
@@ -239,5 +259,6 @@
   <!-- Bootstrap JS -->
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </body>
 </html>

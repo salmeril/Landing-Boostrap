@@ -35,7 +35,7 @@
 
 .sec5{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     margin-top: 2vh;
     background-image: url(/src/icon/1.png) !important;
     background-size: cover;
@@ -108,6 +108,20 @@
 
 // No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }`
 @include media-breakpoint-down(sm) { 
+    
+    .sec5{
+        width: 100%;
+        height: 110vh;
+        margin-top: 2vh;
+        background-image: url(/src/icon/1.png) !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        padding: 0 !important;
+        
+        
+    }
+    
     .contenedor-rectangulos2 {
         height: 100vh;
         position:absolute; /* Asegura que el contenedor es relativo para posicionar la imagen */
@@ -125,7 +139,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 270px;
+        height: 300px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -241,7 +255,7 @@
 
     .contenedor-rectangulos2 {
         position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
-        margin: auto;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -303,7 +317,7 @@
     
     .contenedor-rectangulos2 {
         position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
-        margin: auto;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -331,13 +345,13 @@
         color: #fff;
         justify-content: center;
         align-items: center;
-        margin-top: 1vh;
+        margin: 1vh;
         font-size: medium;
     }
     
     .cardTitulo2{
         color: #fff;
-        margin-top: 10%;
+        margin: 3vh;
     }
 
     .circulo2 {
@@ -363,7 +377,8 @@
  }
 
 
- @include media-breakpoint-up(xxl) {     .contenedor-rectangulos2 {
+ @include media-breakpoint-up(xxl) {     
+    .contenedor-rectangulos2 {
     position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
     
     display: flex;
