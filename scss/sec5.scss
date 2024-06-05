@@ -65,9 +65,10 @@
     position: relative;
     text-align: center;
     margin: 10vh 1rem;
-    box-sizing: border-box;
+    box-sizing: border-box ;
     background-color: rgb(23, 69, 108, 0.5);
     justify-content: center;
+    
 }
 
 .circulo2 {
@@ -139,7 +140,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 300px;
+        height: 325px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -186,7 +187,9 @@
  }
 @include media-breakpoint-down(md) { 
 
-
+    .rectangulo2{
+        height: 325px;
+    }
 
  }
 @include media-breakpoint-down(lg) { 
@@ -398,10 +401,10 @@
     position: relative;
     text-align: center;
     
-    box-sizing: border-box;
-    background-color: #8F8D5F;
+    box-sizing: border-box ;
+    background-color: #514f36;
     justify-content: center;
-    border-radius: 2vh;
+    border-radius: 0 40px 0 40px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .textoCard2{
@@ -418,7 +421,7 @@
 }
 
 .circulo2 {
-    background-image: url(/src/icon/help-circle-outline.png);
+    background-image: url(/src/icon/pregunta.png);
     width: 50px;
     height: 50px;
     background-size: cover;

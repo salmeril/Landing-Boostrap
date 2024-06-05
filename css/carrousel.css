@@ -21236,3 +21236,8 @@ progress {
   margin-right: auto;
   margin-top: 10vh;
 }
+
+.setCarrucho {
+  width: 100%;
+  height: 100vh;
+}

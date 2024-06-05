@@ -36,8 +36,6 @@
 
 
 
-
-
 @include media-breakpoint-down(sm) {
     .navbar-toggler {
         justify-content: end;
@@ -49,6 +47,9 @@
         background: transparent;
     }
 
+    .nav-link{
+        margin-top: 4vh;
+    }
 
 }
 
@@ -122,6 +123,7 @@
         color: white;
         text-align: center;
         margin-left: 4vh;
+        margin-top: 4vh !important;
     }
 
     .navbar-toggler {
@@ -210,6 +212,12 @@
     }
 
  }
+
+ @include media-breakpoint-down(lg) { 
+    .nav-link{
+        margin-top: 0 !important;
+    }
+  }
 @include media-breakpoint-down(xl) { 
     .logaso {
         justify-content: start !important;
@@ -258,6 +266,7 @@
         color: white !important;
         text-align: center;
         margin-left: 4vh;
+        
     }
 
     .navbar-toggler {
@@ -355,7 +364,7 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
 
     .navbar-padre.expand .navbar-collapse {
@@ -372,6 +381,7 @@
         color: white !important;
         text-align: center;
         margin-left: 4vh;
+        
     }
 
     .navbar-toggler {
@@ -487,6 +497,7 @@
         color: white !important;
         text-align: center;
         margin-left: 4vh;
+        
     }
 
     .navbar-toggler {
