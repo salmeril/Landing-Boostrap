@@ -2,7 +2,10 @@
 :root {
     --bs-body-bg: #F5F5F5;
 }
-$primary: #F5F5F5;
+.btn-primary {
+    background-color: #17456C;
+    border-color: #17456C; 
+}
 $bs-body-bg: F5F5F5;
 $enable-smooth-scroll:true;
 $enable-deprecation-messages: false;
@@ -58,7 +61,7 @@ body {
     background-image: url(/src/icon/1.png);
     background-position: center;
     background-repeat: repeat;
-    background-size: auto;
+    background-size: contain;
     padding: 0;
     margin: auto ;
     height: 2000px; /* Ajusta esto según sea necesario */
@@ -81,11 +84,15 @@ body {
     }
   }
 
+  .btn-primary {
+    background-color: #17456C !important;
+    border-color: #17456C !important;
+}
 
-
-
-
-
+.btn-primary:hover {
+    background-color: darken(#17456C, 10%) !important;
+    border-color: darken(#17456C, 10%) !important;
+}
 
 
 
