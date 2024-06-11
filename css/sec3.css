@@ -21355,7 +21355,9 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2vh;
-    font-size: smaller;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 1.2rem;
   }
   .cardTitulo {
     color: #fff;
@@ -21405,7 +21407,7 @@ progress {
   .rectangulo {
     width: 100%;
     max-width: 375px;
-    height: 220px;
+    height: 240px;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21425,7 +21427,10 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2vh;
-    font-size: smaller;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 1rem;
   }
   .cardTitulo {
     color: #fff;
