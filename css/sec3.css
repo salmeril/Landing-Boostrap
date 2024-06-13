@@ -21234,7 +21234,7 @@ progress {
   width: 100%;
   height: 100vh;
   background-color: aqua;
-  background-image: url(/src/img/8.png);
+  background-image: url(/src/img/img-final/8.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21335,7 +21335,7 @@ progress {
   .rectangulo {
     width: 100%;
     max-width: 375px;
-    height: 210px;
+    height: 225px;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21391,9 +21391,9 @@ progress {
 @media (max-width: 767.98px) {
   .cardsec3 {
     width: 100%;
-    height: 110vh;
+    height: 125vh !important;
     background-color: aqua;
-    background-image: url(/src/img/8.png);
+    background-image: url(/src/img/img-final/8.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21418,7 +21418,7 @@ progress {
   .rectangulo {
     width: 100%;
     max-width: 375px;
-    height: 220px;
+    height: 235px;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21438,8 +21438,8 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     font-size: 1.2rem;
   }
   .cardTitulo {
@@ -21472,6 +21472,17 @@ progress {
   }
 }
 @media (max-width: 991.98px) {
+  .cardsec3 {
+    width: 100%;
+    height: 125vh !important;
+    background-color: aqua;
+    background-image: url(/src/img/img-final/8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 1vh;
+  }
   .contenedor-rectangulos {
     position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
     margin: auto;
@@ -21490,7 +21501,7 @@ progress {
   .rectangulo {
     width: 100%;
     max-width: 375px;
-    height: 240px;
+    height: 270px;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21511,8 +21522,8 @@ progress {
             align-items: center;
     margin-top: 2vh;
     margin-top: 2vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     font-size: 1rem;
   }
   .cardTitulo {
@@ -21542,5 +21553,37 @@ progress {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-weight: bold;
+  }
+}
+@media (max-width: 1199.98px) {
+  .textoCard {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .textoCard {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 1rem;
   }
 }

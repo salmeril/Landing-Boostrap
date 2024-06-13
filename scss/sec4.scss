@@ -73,6 +73,8 @@
         font-size: xx-large;
         margin-bottom: 20px;
         margin-top: 30px;
+        margin-left: 4vh;
+        margin-right: 4vh;
     }
 
  }
@@ -80,16 +82,24 @@
 
  @include media-breakpoint-down(md) { 
 
-    
+    .sobre-nosotros h1 {
+        font-size: xx-large;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-left: 4vh !important;
+        margin-right: 4vh !important;
+    }
 
  }
 
-@include media-breakpoint-up(lg) { 
+@include media-breakpoint-down(lg) { 
 
-    .sobre-nosotros{
+.sobre-nosotros h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
 
-        font-size: 1.3rem;
-
-    }
 
  }

@@ -37,7 +37,7 @@
     width: 100%;
     height: 100vh;
     background-color: aqua;
-    background-image: url(/src/img/8.png);
+    background-image: url(/src/img/img-final/8.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 210px;
+        height: 225px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -170,9 +170,9 @@
 
     .cardsec3{
         width: 100%;
-        height: 110vh;
+        height: 125vh !important;
         background-color: aqua;
-        background-image: url(/src/img/8.png);
+        background-image: url(/src/img/img-final/8.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -197,7 +197,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 220px;
+        height: 235px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -210,8 +210,8 @@
         justify-content: center;
         align-items: center;
         margin-top: 2vh;
-        margin-left: 1vh;
-        margin-right: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
         font-size: 1.2rem;
     }
     
@@ -241,6 +241,21 @@
  }
 @include media-breakpoint-down(lg) { 
 
+
+    .cardsec3{
+        width: 100%;
+        height: 125vh !important;
+        background-color: aqua;
+        background-image: url(/src/img/img-final/8.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin-top: 1vh;
+        
+        
+    }
+
     .contenedor-rectangulos {
         position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
         margin: auto;
@@ -256,7 +271,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 240px;
+        height: 270px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -270,8 +285,8 @@
         align-items: center;
         margin-top: 2vh;
         margin-top: 2vh;
-        margin-left: 1vh;
-        margin-right: 1vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
         font-size: 1rem;
     }
     
@@ -300,14 +315,30 @@
  }
 @include media-breakpoint-down(xl) { 
 
-    
+    .textoCard{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        font-size: 1rem;
+    }
 
  }
-@include media-breakpoint-down(xxl) { 
+@include media-breakpoint-up(xxl) { 
+
+    .textoCard{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        font-size: 1rem;
+    }
 
  }
 
-// Example: Style from medium breakpoint and down
-@include media-breakpoint-down(md) {
-  
-}

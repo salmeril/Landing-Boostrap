@@ -21486,7 +21486,7 @@ progress {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
-    margin: 2vh;
+    margin: vh;
     position: absolute;
     right: 10px;
     border: none;
@@ -21662,7 +21662,7 @@ progress {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    width: 12vh !important;
+    width: 10vh !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -21791,7 +21791,7 @@ progress {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    width: 12vh !important;
+    width: 10vh !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

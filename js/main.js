@@ -1,11 +1,21 @@
 document.querySelector('.navbar-toggler').addEventListener('click', function() {
-    var navbarPadre = document.querySelector('.navbar-padre');
-    var toggler = document.querySelector('.navbar-toggler');
-    navbarPadre.classList.toggle('expand');
-    toggler.classList.toggle('collapsed');
+  var navbarPadre = document.querySelector('.navbar-padre');
+  var toggler = document.querySelector('.navbar-toggler');
+  navbarPadre.classList.toggle('expand');
+  toggler.classList.toggle('collapsed');
+});
+
+document.querySelectorAll('.navbar-padre a').forEach(function(navLink) {
+  navLink.addEventListener('click', function() {
+      var navbarPadre = document.querySelector('.navbar-padre');
+      var toggler = document.querySelector('.navbar-toggler');
+      // Verificar si la barra de navegación está expandida
+      if (navbarPadre.classList.contains('expand')) {
+          navbarPadre.classList.remove('expand');
+          toggler.classList.add('collapsed');
+      }
   });
-
-
+});
   
     document.addEventListener('DOMContentLoaded', function() {
       const body = document.querySelector('body');

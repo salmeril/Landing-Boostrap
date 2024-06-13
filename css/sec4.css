@@ -21268,10 +21268,24 @@ progress {
     font-size: xx-large;
     margin-bottom: 20px;
     margin-top: 30px;
+    margin-left: 4vh;
+    margin-right: 4vh;
   }
 }
-@media (min-width: 992px) {
-  .sobre-nosotros {
-    font-size: 1.3rem;
+@media (max-width: 767.98px) {
+  .sobre-nosotros h1, .sobre-nosotros .h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 4vh !important;
+    margin-right: 4vh !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .sobre-nosotros h1, .sobre-nosotros .h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 10vh;
+    margin-right: 10vh;
   }
 }
