@@ -112,7 +112,7 @@
     
     .sec5{
         width: 100%;
-        height: 110vh;
+        height: 120vh;
         margin-top: 2vh;
         
         background-size: cover;
@@ -140,7 +140,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 325px;
+        height: 285px !important;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -154,13 +154,18 @@
         color: #fff;
         justify-content: center;
         align-items: center;
-        margin-top: 2vh;
-        font-size: smaller;
+        margin-top: 0 !important;
+        font-size: smaller !important;
     }
     
     .cardTitulo2{
         color: #fff;
         margin-top: 12%;
+        margin-left: 3vh !important;
+        margin-right: 3vh !important;
+        margin-bottom: 1vh !important;
+        margin-top: 3vh !important;
+        font-size: large !important;
     }
 
     .circulo2 {
@@ -179,16 +184,49 @@
         left: 50%;
         transform: translateX(-50%);
         font-weight: bold;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
         
     }
     
 
  }
 @include media-breakpoint-down(md) { 
+    
 
     .rectangulo2{
-        height: 325px;
+        height: 275px !important;
+    }
+
+
+    .textoCard2{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0 !important;
+        font-size: smaller !important;
+    }
+    
+    .cardTitulo2{
+        color: #fff;
+        margin-top: 3vh !important;
+        margin-left: 3vh !important;
+        margin-right: 3vh !important;
+        margin-bottom: 2vh !important;
+        margin-top: 3vh !important;
+        font-size: large !important;
+    }
+
+    .sec5{
+        width: 100%;
+        height: 115vh;
+        margin-top: 2vh;
+        
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        padding: 0 !important;
+        
+        
     }
 
  }
@@ -249,7 +287,7 @@
         left: 50%;
         transform: translateX(-50%);
         font-weight: bold;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
         
     }
 
@@ -311,7 +349,7 @@
         left: 50%;
         transform: translateX(-50%);
         font-weight: bold;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
         
     }
 
@@ -373,7 +411,7 @@
         left: 50%;
         transform: translateX(-50%);
         font-weight: bold;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
         
     }
 
@@ -436,7 +474,7 @@
     left: 50%;
     transform: translateX(-50%);
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
     
 } }
 

@@ -21250,7 +21250,7 @@ progress {
 }
 
 .sobre-nosotros h1, .sobre-nosotros .h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
@@ -21259,6 +21259,17 @@ progress {
   line-height: 1.6;
 }
 
+@media (max-width: 575.98px) {
+  .sobre-nosotros p {
+    font-size: medium !important;
+    line-height: 1.6;
+  }
+  .sobre-nosotros h1, .sobre-nosotros .h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+}
 @media (min-width: 992px) {
   .sobre-nosotros {
     font-size: 1.3rem;

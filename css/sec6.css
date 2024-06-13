@@ -21250,10 +21250,10 @@ progress {
   -ms-grid-columns: 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

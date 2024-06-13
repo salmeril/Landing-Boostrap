@@ -21313,7 +21313,7 @@ progress {
 @media (max-width: 575.98px) {
   .sec5 {
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     margin-top: 2vh;
     background-size: cover;
     background-position: center;
@@ -21339,7 +21339,7 @@ progress {
   .rectangulo2 {
     width: 100%;
     max-width: 375px;
-    height: 325px;
+    height: 285px !important;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21361,12 +21361,17 @@ progress {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 2vh;
-    font-size: smaller;
+    margin-top: 0 !important;
+    font-size: smaller !important;
   }
   .cardTitulo2 {
     color: #fff;
     margin-top: 12%;
+    margin-left: 3vh !important;
+    margin-right: 3vh !important;
+    margin-bottom: 1vh !important;
+    margin-top: 3vh !important;
+    font-size: large !important;
   }
   .circulo2 {
     background-image: url(/src/icon/kkkk.png);
@@ -21391,13 +21396,40 @@ progress {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-weight: bold;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 }
 @media (max-width: 767.98px) {
   .rectangulo2 {
-    height: 325px;
+    height: 275px !important;
+  }
+  .textoCard2 {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0 !important;
+    font-size: smaller !important;
+  }
+  .cardTitulo2 {
+    color: #fff;
+    margin-top: 3vh !important;
+    margin-left: 3vh !important;
+    margin-right: 3vh !important;
+    margin-bottom: 2vh !important;
+    margin-top: 3vh !important;
+    font-size: large !important;
+  }
+  .sec5 {
+    width: 100%;
+    height: 115vh;
+    margin-top: 2vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 !important;
   }
 }
 @media (max-width: 991.98px) {
@@ -21470,8 +21502,6 @@ progress {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-weight: bold;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 }
 @media (max-width: 1199.98px) {
@@ -21544,8 +21574,6 @@ progress {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-weight: bold;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 }
 @media (max-width: 1399.98px) {
@@ -21618,8 +21646,6 @@ progress {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-weight: bold;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 }
 @media (min-width: 1400px) {
@@ -21691,7 +21717,5 @@ progress {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     font-weight: bold;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 }
