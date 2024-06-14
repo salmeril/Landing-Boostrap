@@ -66,6 +66,7 @@ body {
     margin: auto ;
     height: 2000px; /* Ajusta esto según sea necesario */
     background-color: #f0f0f0;
+    
 
 }
 
@@ -96,10 +97,17 @@ body {
 
 
 
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: none;
+}
 
 .carousel-cell {
   width: 66%;
-  height: 680px;
+  height: 200px;
   margin-right: 10px;
   background: none;
 }
@@ -120,3 +128,10 @@ body {
   opacity: 1;
 }
 
+@media screen and ( min-width: 768px ) {
+
+  .carousel-cell{
+    height: 680px;
+  }
+
+}

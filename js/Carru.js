@@ -1,3 +1,4 @@
+
 // external js: flickity.pkgd.js
 
 var carousel = document.querySelector('.carousel');
@@ -19,3 +20,5 @@ flkty.on( 'scroll', function() {
     img.style[ transformProp ] = 'translateX(' + x  + 'px)';
   });
 });
+
+

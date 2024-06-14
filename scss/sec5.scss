@@ -36,7 +36,7 @@
 .sec5{
     width: 100%;
     height: 100vh;
-    margin-top: 2vh;
+    
     
     background-size: cover;
     background-position: center;
@@ -208,8 +208,21 @@
         
     }
 
+        .contenedor-rectangulos2 {
+        position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
     .rectangulo2{
         height: 300px ;
+    
     }
 
 
@@ -311,8 +324,8 @@
 
     .sec5{
         width: 100%;
-        height: 130vh ;
-        margin-top: 2vh;
+        height: 170vh ;
+        margin-top: 10vh;
         
         background-size: cover;
         background-position: center;
