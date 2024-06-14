@@ -21280,6 +21280,20 @@ progress {
     margin-left: 4vh !important;
     margin-right: 4vh !important;
   }
+  .sobre-nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 115vh;
+    text-align: center;
+    padding: 20px;
+  }
 }
 @media (max-width: 991.98px) {
   .sobre-nosotros h1, .sobre-nosotros .h1 {

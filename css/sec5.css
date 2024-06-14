@@ -21303,6 +21303,8 @@ progress {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 5vh;
+  font-weight: 300;
+  font-size: medium;
 }
 
 .cardTitulo2 {
@@ -21313,7 +21315,7 @@ progress {
 @media (max-width: 575.98px) {
   .sec5 {
     width: 100%;
-    height: 150vh !important;
+    height: 200vh !important;
     margin-top: 2vh;
     background-size: cover;
     background-position: center;
@@ -21340,7 +21342,7 @@ progress {
   .rectangulo2 {
     width: 100%;
     max-width: 375px;
-    height: 36px !important;
+    height: 425px !important;
     position: relative;
     text-align: center;
     margin: 5vh;
@@ -21363,7 +21365,7 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 0 !important;
-    font-size: smaller !important;
+    font-size: medium !important;
   }
   .cardTitulo2 {
     color: #fff;
@@ -21402,7 +21404,7 @@ progress {
 @media (max-width: 767.98px) {
   .sec5 {
     width: 100%;
-    height: 150vh !important;
+    height: 170vh !important;
     margin-top: 2vh;
     margin: 2vh;
     background-size: cover;
@@ -21411,7 +21413,7 @@ progress {
     padding: 0 !important;
   }
   .rectangulo2 {
-    height: 275px;
+    height: 300px;
   }
   .textoCard2 {
     color: #fff;
@@ -21422,7 +21424,7 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 0 !important;
-    font-size: smaller !important;
+    font-size: medium !important;
   }
   .cardTitulo2 {
     color: #fff;
@@ -21461,7 +21463,7 @@ progress {
   .rectangulo2 {
     width: 100%;
     max-width: 375px;
-    height: 250px;
+    height: 275px;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21484,7 +21486,7 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2vh;
-    font-size: smaller;
+    font-size: medium;
   }
   .cardTitulo2 {
     color: #fff;
@@ -21565,7 +21567,7 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2vh;
-    font-size: smaller;
+    font-size: medium;
   }
   .cardTitulo2 {
     color: #fff;
@@ -21614,7 +21616,7 @@ progress {
   .rectangulo2 {
     width: 100%;
     max-width: 375px;
-    height: 360px;
+    height: 375px;
     position: relative;
     text-align: center;
     margin: 2vh;
@@ -21637,7 +21639,7 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin: 1vh;
-    font-size: 0.9rem;
+    font-size: medium;
   }
   .cardTitulo2 {
     font-size: x-large;

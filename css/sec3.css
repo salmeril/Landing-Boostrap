@@ -21309,6 +21309,7 @@ progress {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 5vh;
+  font-size: medium;
 }
 
 .cardTitulo {
@@ -21317,172 +21318,6 @@ progress {
 }
 
 @media (max-width: 575.98px) {
-  .contenedor-rectangulos {
-    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .rectangulo {
-    width: 100%;
-    max-width: 375px;
-    height: 225px;
-    position: relative;
-    text-align: center;
-    margin: 2vh;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-color: rgba(23, 69, 108, 0.5);
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .textoCard {
-    color: #fff;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 2vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    font-size: smaller !important;
-  }
-  .cardTitulo {
-    color: #fff;
-    margin-top: 12%;
-  }
-  .circulo {
-    background-image: url(/src/icon/checkcard.png);
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: absolute;
-    top: -3vh;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    font-weight: bold;
-  }
-}
-@media (max-width: 767.98px) {
-  .cardsec3 {
-    width: 100%;
-    height: 125vh !important;
-    background-color: aqua;
-    background-image: url(/src/img/img-final/8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin-top: 1vh;
-  }
-  .contenedor-rectangulos {
-    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .rectangulo {
-    width: 100%;
-    max-width: 375px;
-    height: 235px;
-    position: relative;
-    text-align: center;
-    margin: 2vh;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background-color: rgba(23, 69, 108, 0.5);
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .textoCard {
-    color: #fff;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 2vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
-    font-size: 1.2rem;
-  }
-  .cardTitulo {
-    color: #fff;
-    margin-top: 12%;
-  }
-  .circulo {
-    background-image: url(/src/icon/checkcard.png);
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    position: absolute;
-    top: -3vh;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    font-weight: bold;
-  }
-}
-@media (max-width: 991.98px) {
-  .cardsec3 {
-    width: 100%;
-    height: 125vh !important;
-    background-color: aqua;
-    background-image: url(/src/img/img-final/8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin-top: 1vh;
-  }
   .contenedor-rectangulos {
     position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
     margin: auto;
@@ -21521,10 +21356,176 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: medium !important;
+  }
+  .cardTitulo {
+    color: #fff;
+    margin-top: 12%;
+  }
+  .circulo {
+    background-image: url(/src/icon/checkcard.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -3vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-weight: bold;
+  }
+}
+@media (max-width: 767.98px) {
+  .cardsec3 {
+    width: 100%;
+    height: 140vh !important;
+    background-color: aqua;
+    background-image: url(/src/img/img-final/8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 1vh;
+  }
+  .contenedor-rectangulos {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rectangulo {
+    width: 100%;
+    max-width: 375px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    margin: 2vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(23, 69, 108, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .textoCard {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
-    font-size: 1rem;
+    font-size: medium;
+  }
+  .cardTitulo {
+    color: #fff;
+    margin-top: 12%;
+  }
+  .circulo {
+    background-image: url(/src/icon/checkcard.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -3vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-weight: bold;
+  }
+}
+@media (max-width: 991.98px) {
+  .cardsec3 {
+    width: 100%;
+    height: 140vh !important;
+    background-color: aqua;
+    background-image: url(/src/img/img-final/8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 1vh;
+  }
+  .contenedor-rectangulos {
+    position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rectangulo {
+    width: 100%;
+    max-width: 375px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    margin: 2vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(23, 69, 108, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .textoCard {
+    color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: medium;
   }
   .cardTitulo {
     color: #fff;
@@ -21556,6 +21557,20 @@ progress {
   }
 }
 @media (max-width: 1199.98px) {
+  .rectangulo {
+    width: 100%;
+    max-width: 375px;
+    height: 320px;
+    position: relative;
+    text-align: center;
+    margin: 2vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(23, 69, 108, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .textoCard {
     color: #fff;
     -webkit-box-pack: center;
@@ -21584,6 +21599,6 @@ progress {
     margin-top: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
-    font-size: 1rem;
+    font-size: large;
   }
 }

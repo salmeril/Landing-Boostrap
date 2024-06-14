@@ -96,6 +96,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
+    font-size: medium;
 }
 
 .cardTitulo{
@@ -123,7 +124,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 225px;
+        height: 270px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -138,7 +139,7 @@
         margin-top: 2vh;
         margin-left: 1vh;
         margin-right: 1vh;
-        font-size: smaller !important;
+        font-size: medium !important;
     }
     
     .cardTitulo{
@@ -170,7 +171,7 @@
 
     .cardsec3{
         width: 100%;
-        height: 125vh !important;
+        height: 140vh !important;
         background-color: aqua;
         background-image: url(/src/img/img-final/8.png);
         background-size: cover;
@@ -197,7 +198,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 235px;
+        height: 250px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -212,7 +213,7 @@
         margin-top: 2vh;
         margin-left: 2vh;
         margin-right: 2vh;
-        font-size: 1.2rem;
+        font-size: medium;
     }
     
     .cardTitulo{
@@ -244,7 +245,7 @@
 
     .cardsec3{
         width: 100%;
-        height: 125vh !important;
+        height: 140vh !important;
         background-color: aqua;
         background-image: url(/src/img/img-final/8.png);
         background-size: cover;
@@ -271,7 +272,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 270px;
+        height: 300px;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -287,7 +288,7 @@
         margin-top: 2vh;
         margin-left: 2vh;
         margin-right: 2vh;
-        font-size: 1rem;
+        font-size: medium;
     }
     
     .cardTitulo{
@@ -315,6 +316,19 @@
  }
 @include media-breakpoint-down(xl) { 
 
+    .rectangulo {
+    
+        width: 100%;
+        max-width: 375px;
+        height: 320px;
+        position: relative;
+        text-align: center;
+        margin: 2vh;
+        box-sizing: border-box;
+        background-color: rgb(23, 69, 108, 0.5);
+        justify-content: center;
+    }
+
     .textoCard{
         color: #fff;
         justify-content: center;
@@ -337,7 +351,7 @@
         margin-top: 2vh;
         margin-left: 2vh;
         margin-right: 2vh;
-        font-size: 1rem;
+        font-size: large;
     }
 
  }

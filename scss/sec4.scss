@@ -90,6 +90,17 @@
         margin-right: 4vh !important;
     }
 
+    .sobre-nosotros {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 115vh;
+        
+        text-align: center;
+        padding: 20px;
+    }
+    
+
  }
 
 @include media-breakpoint-down(lg) { 

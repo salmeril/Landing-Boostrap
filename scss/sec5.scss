@@ -94,6 +94,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
+    font-weight: 300;
+    font-size: medium;
 }
 
 .cardTitulo2{
@@ -112,7 +114,7 @@
     
     .sec5{
         width: 100%;
-        height: 150vh !important;
+        height: 200vh !important;
         margin-top: 2vh;
         
         background-size: cover;
@@ -140,7 +142,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 36px !important ;
+        height: 425px !important ;
         position: relative;
         text-align: center;
         margin: 5vh;
@@ -155,7 +157,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 0 !important;
-        font-size: smaller !important;
+        font-size: medium !important;
     }
     
     .cardTitulo2{
@@ -195,7 +197,7 @@
 
     .sec5{
         width: 100%;
-        height: 150vh !important;
+        height: 170vh !important;
         margin-top: 2vh;
         margin: 2vh;
         background-size: cover;
@@ -207,7 +209,7 @@
     }
 
     .rectangulo2{
-        height: 275px ;
+        height: 300px ;
     }
 
 
@@ -216,7 +218,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 0 !important;
-        font-size: smaller !important;
+        font-size: medium !important;
     }
     
     .cardTitulo2{
@@ -261,7 +263,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 250px ;
+        height: 275px ;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -276,7 +278,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 2vh;
-        font-size: smaller;
+        font-size: medium;
     }
     
     .cardTitulo2{
@@ -351,7 +353,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 2vh;
-        font-size: smaller;
+        font-size: medium;
     }
     
     .cardTitulo2{
@@ -381,6 +383,8 @@
 
  }
 @include media-breakpoint-down(xxl) { 
+
+    
     
     .contenedor-rectangulos2 {
         position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
@@ -398,7 +402,7 @@
     
         width: 100%;
         max-width: 375px;
-        height: 360px ;
+        height: 375px ;
         position: relative;
         text-align: center;
         margin: 2vh;
@@ -413,7 +417,7 @@
         justify-content: center;
         align-items: center;
         margin: 1vh;
-        font-size: 0.9rem;
+        font-size: medium;
     }
     
     .cardTitulo2{
