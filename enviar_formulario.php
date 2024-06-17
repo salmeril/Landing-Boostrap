@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
 
-    $para = 'formulario@magnoliaharvestco.ar'; // Reemplaza con tu dirección de correo de Hostinger
+    $para = 'tu_cuenta_de_email@tudominio.com'; // Reemplaza con tu dirección de correo de Hostinger
     $asunto = 'Nuevo mensaje del formulario de contacto';
     $contenido = "Nombre: $nombre\nCorreo Electrónico: $email\nMensaje: $mensaje";
     $cabeceras = "From: $email\r\nReply-To: $email";
