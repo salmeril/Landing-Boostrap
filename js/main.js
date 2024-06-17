@@ -32,6 +32,10 @@ document.querySelectorAll('.navbar-padre a').forEach(function(navLink) {
     });
 
 
+
+
+
+
     document.getElementById('miFormulario').addEventListener('submit', function(event) {
       event.preventDefault(); // Evitar el envío por defecto del formulario
 
@@ -53,10 +57,16 @@ document.querySelectorAll('.navbar-padre a').forEach(function(navLink) {
       })
       .then(response => response.text())
       .then(data => {
-          alert(data); // Mostrar un cuadro de diálogo con el mensaje de éxito o error del servidor
-          document.getElementById('miFormulario').reset(); // Opcional: resetear el formulario
+          // Mostrar el mensaje de confirmación
+          const mensajeConfirmacion = document.getElementById('mensaje');
+          mensajeConfirmacion.style.display = 'block';
+          mensajeConfirmacion.textContent = data;
+
+          // Opcional: resetear el formulario
+          document.getElementById('miFormulario').reset();
       })
       .catch(error => {
-          alert('Hubo un error al enviar el formulario.'); // Mostrar un cuadro de diálogo con el mensaje de error
+          // Mostrar un mensaje de error
+          alert('Hubo un error al enviar el formulario.');
       });
   });
