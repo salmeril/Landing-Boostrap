@@ -36,9 +36,7 @@ document.querySelectorAll('.navbar-padre a').forEach(function(navLink) {
 
 
 
-    document.getElementById('miFormulario').addEventListener('submit', function(event) {
-      event.preventDefault(); // Evitar el envío por defecto del formulario
-
+    function enviarFormulario() {
       // Obtener los datos del formulario
       const nombre = document.getElementById('nombre').value;
       const email = document.getElementById('email').value;
@@ -69,4 +67,4 @@ document.querySelectorAll('.navbar-padre a').forEach(function(navLink) {
           // Mostrar un mensaje de error
           alert('Hubo un error al enviar el formulario.');
       });
-  });
+  }
