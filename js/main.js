@@ -53,12 +53,10 @@ document.querySelectorAll('.navbar-padre a').forEach(function(navLink) {
       })
       .then(response => response.text())
       .then(data => {
-          // Mostrar un cuadro de diálogo con el mensaje de éxito
-          alert('Formulario enviado con éxito.');
+          alert(data); // Mostrar un cuadro de diálogo con el mensaje de éxito o error del servidor
           document.getElementById('miFormulario').reset(); // Opcional: resetear el formulario
       })
       .catch(error => {
-          // Mostrar un cuadro de diálogo con el mensaje de error
-          alert('Hubo un problema al enviar el formulario.');
+          alert('Hubo un error al enviar el formulario.'); // Mostrar un cuadro de diálogo con el mensaje de error
       });
   });
