@@ -64,6 +64,11 @@
 
 @include media-breakpoint-down(sm) { 
 
+
+    .sobre-nosotros{
+        height: 150vh !important;
+    }
+
     .sobre-nosotros p {
         font-size: medium !important;
         line-height: 1.6;

@@ -21260,6 +21260,9 @@ progress {
 }
 
 @media (max-width: 575.98px) {
+  .sobre-nosotros {
+    height: 150vh !important;
+  }
   .sobre-nosotros p {
     font-size: medium !important;
     line-height: 1.6;

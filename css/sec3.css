@@ -21234,7 +21234,7 @@ progress {
   width: 100%;
   height: 100vh;
   background-color: aqua;
-  background-image: url(/src/img/img-final/8.png);
+  background-image: url(/src/img/img-final/8.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21318,6 +21318,17 @@ progress {
 }
 
 @media (max-width: 575.98px) {
+  .cardsec3 {
+    width: 100%;
+    height: 190vh !important;
+    background-color: aqua;
+    background-image: url(/src/img/img-final/8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 1vh;
+  }
   .contenedor-rectangulos {
     position: relative; /* Asegura que el contenedor es relativo para posicionar la imagen */
     margin: auto;
@@ -21392,9 +21403,9 @@ progress {
 @media (max-width: 767.98px) {
   .cardsec3 {
     width: 100%;
-    height: 140vh !important;
+    height: 190vh;
     background-color: aqua;
-    background-image: url(/src/img/img-final/8.png);
+    background-image: url(/src/img/img-final/8.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21475,9 +21486,9 @@ progress {
 @media (max-width: 991.98px) {
   .cardsec3 {
     width: 100%;
-    height: 140vh !important;
+    height: 140vh;
     background-color: aqua;
-    background-image: url(/src/img/img-final/8.png);
+    background-image: url(/src/img/img-final/8.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
